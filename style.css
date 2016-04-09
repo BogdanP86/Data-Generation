@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Georgia, Serif;
+}
+
+#content {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #d3d3d3;
+	min-height: 250px;
+	width:1200px;
+	overflow: hidden;
+}
+
+#content div {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px solid #c3c3c3;
+	min-height: 70px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+#item0, #item1, #item2, #item3, #item4{
+	position: relative;
+	display: inline-block;
+	
+	min-height: 70px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+}
+ #item:last-child{
+ 	position: relative;
+	display: inline-block;
+	min-height: 70px;
+	width: 100%;
+	overflow: hidden;
+	font-size: 14px;
+ }
+
+#content div:hover{
+	cursor: pointer;
+}
+
+#content div div{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	width:160px;
+	height: 100%;
+	line-height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	color: #7c7c7c;
+	border: none;
+}
+
+.itemTitle {
+	float:left;
+	height: 100%;
+	line-height: 70px;
+	min-width: 165px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.titleDiv {
+	height: 69px;
+	display: inline-block;
+	border-bottom: 1px solid #c3c3c3;
+	width: 100%;
+}
+
+#divSVG {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+#mySvg {
+	position: relative;
+	width:510px;
+	height:50px;
+}
+
+#theSVG, #theSVG2, #theSVG3, #theSVG4 {
+	position: absolute;
+	width: 510px;
+	height: 50px;
+	left:0px;
+}
+
+#newDiv0, #newDiv1, #newDiv2, #newDiv3, #newDiv4, #newDiv5{
+	
+	height:70px;
+	position:absolute;
+	left:0;
+	top:75px;
+	width:99%;
+	
+}
+
+.partDiv1 svg {
+	position: absolute;
+	left:20%;
+}
+
+.divTransition {
+	-webkit-transition: height .5s;
+	-moz-transition: height .5s;
+	-ms-transition: height .5s;
+	transition: height .5s;
+}
